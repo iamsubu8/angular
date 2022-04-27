@@ -1,4 +1,5 @@
 # Csm
+To run this application first we need to run `npm install` command to install the node_modules
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
