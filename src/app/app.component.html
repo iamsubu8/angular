@@ -1,0 +1,13 @@
+<!--router-outlet></router-outlet-->
+<h1 [class]="colorGreen" *ngIf="showGreen else otherColor">Welcome to {{title}}</h1>
+
+<ng-template #otherColor>
+    <h1 [class]="colorRed">Welcome to {{title}}</h1>
+</ng-template>
+
+<!-- <app-user-auth></app-user-auth>
+<app-sign-in></app-sign-in>
+<button (click)="showMyName('Santosh', 'BBSR')">Click Me</button>
+<button (click)="showMyName(inputname.value, 'CTC', 12346)">Click Me again</button>
+<br/><br/>
+<input type="text" #inputname placeholder="Enter your name"> -->
